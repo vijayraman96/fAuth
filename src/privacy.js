@@ -3,7 +3,7 @@ import React from 'react'
 const Privacy = () => {
   return (
     <div>
-      <p>privacy</p>
+      <p>privacy dcd</p>
     </div>
   )
 }

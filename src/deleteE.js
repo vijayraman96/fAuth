@@ -3,7 +3,7 @@ import React from 'react'
 const DeleteE = () => {
   return (
     <div>
-      <p>delete</p>
+      <p>delete fvfevef</p>
     </div>
   )
 }

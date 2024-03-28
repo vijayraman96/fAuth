@@ -15,7 +15,7 @@ const Main = () => {
     console.log('Login Failed!', error);
   }}
   onProfileSuccess={(response) => {
-    console.log('Get Profile Success!', response);
+    console.log('Get Profile Success! dcdwc', response);
   }}
 />
   <p>helo</p>
