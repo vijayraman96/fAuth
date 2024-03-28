@@ -1,6 +1,6 @@
 import React from 'react'
 
-const deleteE = () => {
+const DeleteE = () => {
   return (
     <div>
       <p>delete</p>
@@ -8,4 +8,4 @@ const deleteE = () => {
   )
 }
 
-export default deleteE
+export default DeleteE

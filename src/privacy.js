@@ -1,6 +1,6 @@
 import React from 'react'
 
-const privacy = () => {
+const Privacy = () => {
   return (
     <div>
       <p>privacy</p>
@@ -8,4 +8,4 @@ const privacy = () => {
   )
 }
 
-export default privacy
+export default Privacy

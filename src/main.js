@@ -3,7 +3,7 @@ import FacebookLogin from '@greatsumini/react-facebook-login';
 const responseFacebook = (response) => {
 console.log(response);
 }
-const main = () => {
+const Main = () => {
   return (
     <div>
   <FacebookLogin
@@ -23,4 +23,4 @@ const main = () => {
   )
 }
 
-export default main
+export default Main

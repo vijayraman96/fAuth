@@ -1,6 +1,6 @@
 import React from 'react'
 
-const callbackE = () => {
+const CallbackE = () => {
   return (
     <div>
       <p>callback</p>
@@ -8,4 +8,4 @@ const callbackE = () => {
   )
 }
 
-export default callbackE
+export default CallbackE

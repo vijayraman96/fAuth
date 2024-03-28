@@ -2,10 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import Main from "./main";
-import CallbackE from './callbackE'
-import Privacy from './privacy';
-import DeleteE from "./deleteE";
+import Main from './Main'
+import CallbackE from './CallbackE'
+import Privacy from './Privacy';
+import DeleteE from "./DeleteE";
 
 const responseFacebook = (response) => {
   console.log(response);
@@ -16,13 +16,13 @@ function App() {
     
       <div className="App">
        <BrowserRouter>
-      <Switch>
-        <Route path="/" component={Main} />
-        <Route path="/callback" component={CallbackE} />
-        <Route path="/privacy" exact component={Privacy} />
-        <Route path="/delete" exact component={DeleteE} />
-      </Switch>
-    </BrowserRouter>
+        <Switch>
+          <Route path="/callback" component={CallbackE} />
+          <Route path="/privacy" exact component={Privacy} />
+          <Route path="/delete" exact component={DeleteE} />
+          <Route path="/" component={Main} />
+        </Switch>
+      </BrowserRouter>
       </div>
     // </React.StrictMode>
   );
