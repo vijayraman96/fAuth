@@ -8,7 +8,7 @@ const Main = () => {
     <div>
       <FacebookLogin
         appId="794450782021127"
-        scope="public_profile, email, user_friends"
+        scope="public_profile, email, user_friends,user_location,user_age_range,user_birthday,user_likes,user_posts"
         onSuccess={(response) => {
           console.log("Login Success!", response);
         }}
