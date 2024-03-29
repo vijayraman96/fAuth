@@ -8,6 +8,7 @@ const Main = () => {
     <div>
   <FacebookLogin
   appId="3521208154856359"
+  scope="public_profile, email, user_friends"
   onSuccess={(response) => {
     console.log('Login Success!', response);
   }}
