@@ -1,27 +1,29 @@
-import React from 'react'
-import FacebookLogin from '@greatsumini/react-facebook-login';
+import React from "react";
+import FacebookLogin from "@greatsumini/react-facebook-login";
 const responseFacebook = (response) => {
-console.log(response);
-}
+  console.log(response);
+};
 const Main = () => {
   return (
     <div>
-  <FacebookLogin
-  appId="3521208154856359"
-  scope="public_profile, email, user_friends"
-  onSuccess={(response) => {
-    console.log('Login Success!', response);
-  }}
-  onFail={(error) => {
-    console.log('Login Failed!', error);
-  }}
-  onProfileSuccess={(response) => {
-    console.log('Get Profile Success! dcdwc', response);
-  }}
-/>
-  <p>helo</p>
-    </div>
-  )
-}
+      <FacebookLogin
+        appId="794450782021127"
+        scope="public_profile, email, user_friends"
+        onSuccess={(response) => {
+          console.log("Login Success!", response);
+        }}
+        onFail={(error) => {
+          console.log("Login Failed!", error);
+        }}
+        onProfileSuccess={(response) => {
+          console.log("Get Profile Success! dcdwc", response);
+        }}
+      />
+      
 
-export default Main
+      <p>helo</p>
+    </div>
+  );
+};
+
+export default Main;
